@@ -1,0 +1,24 @@
+#wrapper_content_loggedin {
+	display: block;
+	margin-top: 140px;
+}
+
+#menu {
+	background-color: #DCDCDC;
+	height: 40px;
+	line-height: 40px;
+	padding: 5px 10px 5px 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu_logout {
+	float: right;
+}
+
+#main_content {
+	padding: 20px 10px 20px 10px;	
+}
+
+.logout-button {
+		text-decoration: none;
+}

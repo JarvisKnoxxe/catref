@@ -1,0 +1,196 @@
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  
+}
+
+body {
+	background: url(../images/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+header {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 120px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #000000;
+}
+
+#wrapper_footer {
+	line-height: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: #ffffff;
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+}
+
+#wrapper_logo {
+	z-index: 1;
+    width: 15%;
+    height: 140px;
+    background-color: #000000;
+	float: left;
+	line-height: 140px;
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+}
+
+#wrapper_logo img {
+	max-width: 80%;
+	height: auto;
+	vertical-align: middle;
+	text-align: center;
+}
+
+
+#wrapper_title {
+	z-index: 1;
+    width: 85%;
+    height: 140px;
+    background-color: #FFC500;
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+
+#wrapper_content {
+	display: block;
+	margin-top: 150px;
+}
+
+#wrapper_login {
+	background: rgba(0, 0, 0, 0.7);
+	width: 30%;
+	height: 40%;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%);
+}
+
+#login_title {
+	position: fixed;
+	margin-top: 35px;
+	left: 50%;
+	
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%);
+	color: #ffffff;
+}
+
+.login-title {
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.main_title {
+	font-family: "Impact", Charcoal, sans-serif;
+	font-size: 68px;
+	text-transform: uppercase;
+	margin-left: 20px;
+	color: #ffffff;
+}
+
+#login_field {
+	margin-top: 100px;
+	text-align: center;
+}
+
+input {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#login_username {
+  display: inline-block;
+  width: 80%;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 10px 20px;
+  border: 1px solid #b7b7b7;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: normal 16px/normal "Times New Roman", Times, serif;
+  color: rgba(0,142,198,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgba(252,252,252,1);
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  margin-bottom: 10px;
+}
+
+#login_password {
+  display: inline-block;
+  width: 80%;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 10px 20px;
+  border: 1px solid #b7b7b7;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: normal 16px/normal "Times New Roman", Times, serif;
+  color: rgba(0,142,198,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgba(252,252,252,1);
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  margin-bottom: 10px;
+}
+
+#button_submit {
+  display: inline-block;
+  width: 80%;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 1px solid #018dc4;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: normal 16px/normal Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.9);
+  background: rgba(255,153,0,1);
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+  text-shadow: -1px -1px 0 rgba(15,73,168,0.66) ;
+  -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+}
